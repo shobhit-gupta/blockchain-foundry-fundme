@@ -29,8 +29,8 @@ This is a learning project focussed on Smart Contract development & testing with
 ## Quickstart
 
 ```
-git clone https://github.com/<PATH_FILL_LATER>
-cd FundMe
+git clone https://github.com/shobhit-gupta/blockchain-foundry-fundme.git
+cd blockchain-foundry-fundme
 forge build
 ```
 
