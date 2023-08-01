@@ -1,0 +1,12 @@
+services:
+  fund-me:
+    build: ./
+    stdin_open: true
+    tty: true
+    container_name: fund-me-app
+    ports:
+      - "12545:8545"
+    volumes:
+      - ./:/app
+    cpu_count: 6
+    mem_limit: 6g
